@@ -7,7 +7,7 @@ module.exports = client => {
         if (message.content.toLocaleLowerCase() === ">>embed") {
             
             const embed1 = new Discord.MessageEmbed()
-            .setColor("FCD510")
+            .setColor("RANDOM")
             .setTitle("Stuff To Know")
             .addFields(
                 {

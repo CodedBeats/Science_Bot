@@ -4,7 +4,6 @@ module.exports = client => {
 //==========================================   Velox Welcome   ==========================================//
 
     //channel IDs
-    const veloxWelcomeChannel = ""
 	const veloxAboutUsChannel = "753614485960523876";	
 	const veloxSantaRulesChannel = "678218715166146601";
 	const veloxRoleClaimChannel = "764460926639276053";
@@ -51,7 +50,7 @@ module.exports = client => {
             },
             )
         // set banner
-        .setImage("https://cdn.discordapp.com/attachments/717586690041970688/786177447901134878/VeloxBannerFINISHED.png")
+        .setImage("https://cdn.discordapp.com/attachments/766949433912328214/831108294935969812/Main.jpg")
         .setFooter("Footer Text", serverIcon)
         .setTimestamp()
         
@@ -59,9 +58,6 @@ module.exports = client => {
         member.send(welcomeEmbedPM)
 
         // log the sucessful command in the terminal
-        console.log("Welcome Messsage Tested");
-
-        // log all the information of the new user
-        // console.log(message.member);			
+        console.log("Welcome Messaged New User");
 	});
 }
